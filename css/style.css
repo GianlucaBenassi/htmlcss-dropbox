@@ -51,6 +51,15 @@ body {
     background-color: #0053da;
 }
 
+.btn.white {
+    color: black;
+    background-color: #fff;
+}
+
+.btn.white:hover {
+    background-color: #F5F5F5;
+}
+
 .col {
     width: calc((100% / 3) - (50px / 3 * 2));
 }
@@ -279,6 +288,23 @@ main section h2 {
     object-fit: cover;
 }
 
+#partner .partner-text {
+    padding: 30px;
+}
+
+#partner .partner-text h2,
+#partner .partner-text p {
+    margin-bottom: 30px;
+}
+
+#partner .partner-text p {
+    line-height: 1.6;   
+}
+
+#partner .partner-text a.btn {
+    border: 1px solid black; 
+}
+
 /* ***** footer ***** */
 
 
@@ -319,12 +345,12 @@ main section h2 {
     border: 1px solid blue;
 } */
 
-.debug #partner .image,
+/* .debug #partner .image,
 .debug #partner .partner-text {
     background-color: orange;
     height: 500px;
     border: 1px solid black;
-}
+} */
 
 .debug footer .container-big {
     height: 300px;
