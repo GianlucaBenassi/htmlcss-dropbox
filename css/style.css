@@ -240,12 +240,27 @@ main section h2 {
     margin: 40px 0 20px;
 }
 
+#plane .col-content .purchase{
+    position: relative;
+    padding-bottom: 25px;
+}
+
+#plane .col-content .purchase::before {
+    content: '';
+    display: block;
+    width: 25%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid lightgrey;
+}
+
 #plane .col-content .purchase a {
     color: #2579ff;
 }
 
 #plane .col-content h4 {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 #plane .col-content .plane-point li {
