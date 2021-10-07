@@ -142,6 +142,27 @@ nav ul li a {
 
 /* ***** main ***** */
 
+main section {
+    margin-top: 150px;
+}
+
+main section h2 {
+    font-size: 30px;
+}
+
+/* --- plane section --- */
+
+#plane h2 {
+    margin-bottom: 50px;
+}
+
+#plane .invoice span {
+    margin: 0 30px 30px 0;
+}
+
+#plane .invoice span input {
+    margin-right: 5px;
+}
 
 /* ***** footer ***** */
 
@@ -167,9 +188,9 @@ nav ul li a {
     height: 600px;
 } */
 
-.debug main .container-small {
+/* .debug main .container-small {
     background-color: yellow;
-}
+} */
 
 .debug main section {
     height: 1000px;
