@@ -266,6 +266,15 @@ main section h2 {
     width: 20%;
 }
 
+
+/* ----- partner section ----- */
+
+#partner .image,
+#partner .partner-text {
+    width: 50%;
+}
+
+
 /* ***** footer ***** */
 
 
@@ -305,6 +314,13 @@ main section h2 {
     background-color: green;
     border: 1px solid blue;
 } */
+
+.debug #partner .image,
+.debug #partner .partner-text {
+    background-color: orange;
+    height: 500px;
+    border: 1px solid black;
+}
 
 .debug footer .container-big {
     height: 300px;
