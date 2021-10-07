@@ -168,8 +168,12 @@ nav ul li a {
 } */
 
 .debug main .container-small {
-    height: 1000px;
     background-color: yellow;
+}
+
+.debug main section {
+    height: 1000px;
+    border: 1px solid black;
 }
 
 .debug footer .container-big {
