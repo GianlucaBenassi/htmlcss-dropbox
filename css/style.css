@@ -104,8 +104,21 @@ nav ul li a {
 /* ***** jumbotron ***** */
 
 .jumbo {
-    background-color: #B4D0E7;
+    background: linear-gradient(to bottom, #B4D0E7 85%, #fff 15%);
     margin-top: 80px;
+}
+
+#jumbo-text {
+    width: 30%;
+}
+
+#jumbo-image {
+    width: 70%;
+}
+
+#jumbo-image img {
+    width: 100%;
+    object-fit: cover;
 }
 
 /* ***** main ***** */
@@ -130,10 +143,10 @@ nav ul li a {
     border: 1px solid black;
 } */
 
-.debug .jumbo .container-big {
+/* .debug .jumbo .container-big {
     background-color: blue;
-    height: 400px;
-}
+    height: 600px;
+} */
 
 .debug main .container-small {
     height: 1000px;
