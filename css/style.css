@@ -29,21 +29,42 @@
     float: left;
 }
 
+.right {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* ***** header ***** */
 
 header {
     height: 80px;
     padding: 0 20px;
+    line-height: 80px;
 }
 
 #logo {
     width: 130px;
+    height: 100%;
+}
+
+#logo img {
+    vertical-align: middle;
 }
 
 header nav {
     width: calc(100% - 130px);
     height: 100%;
+}
+
+header nav ul li {
+    display: inline-block;
 }
 
 /* ***** jumbotron ***** */
@@ -64,6 +85,11 @@ header nav {
 
 .debug header nav {
     background-color: pink;
+}
+
+.debug header .nav-left,
+.debug header .nav-right {
+    border: 1px solid black;
 }
 
 .debug .jumbo .container-big {
