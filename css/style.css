@@ -5,3 +5,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container-big {
+    width: 80%;
+}
+
+.container-small {
+    width: 70%;
+}
+
+.container-big,
+.container-small {
+    margin: 0 auto;
+}
+
+
+/* ***** header ***** */
+
+header {
+    height: 80px;
+}
+
+/* ***** jumbotron ***** */
+
+
+/* ***** main ***** */
+
+
+/* ***** footer ***** */
+
+
+
+/* +++++ debug +++++  */
+
+.debug header {
+    background-color: red;
+}
+
+.debug .jumbo .container-big {
+    height: 800px;
+    background-color: blue;
+}
+
+.debug main .container-small {
+    height: 1000px;
+    background-color: yellow;
+}
+
+.debug footer .container-big {
+    height: 300px;
+    background-color: green;
+}
