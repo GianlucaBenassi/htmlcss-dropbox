@@ -8,6 +8,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .container-big {
@@ -93,15 +95,15 @@ nav ul li a {
 
 /* +++++ debug +++++  */
 
-.debug header {
+/* .debug header {
     background-color: red;
 }
 
-/* .debug header nav {
+.debug header nav {
     background-color: pink;
-} */
+}
 
-/* .debug header .nav-left,
+.debug header .nav-left,
 .debug header .nav-right {
     border: 1px solid black;
 } */
