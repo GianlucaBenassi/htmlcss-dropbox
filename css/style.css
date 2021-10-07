@@ -43,7 +43,7 @@ body {
 .btn {
     color: white;
     background-color: #0061FF;
-    padding: 5px 15px;
+    padding: 7px 18px;
 }
 
 .btn:hover {
@@ -108,8 +108,27 @@ nav ul li a {
     margin-top: 80px;
 }
 
+.jumbo h1 {
+    font-size: 60px;
+    padding: 50px 0 30px;
+}
+
 #jumbo-text {
     width: 30%;
+}
+
+#jumbo-text p {
+    margin-bottom: 40px;
+}
+
+#jumbo-text span {
+    display: block;
+    margin: 20px 0;
+}
+
+#jumbo-text .fa-arrow-down {
+    font-size: 35px;
+    font-weight: bold;
 }
 
 #jumbo-image {
