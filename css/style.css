@@ -164,6 +164,29 @@ main section h2 {
     margin-bottom: 50px;
 }
 
+#plane h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#plane h4 {
+    font-size: 18px;
+}
+
+#plane .btn {
+    display: block;
+    text-align: center;
+}
+
+#plane .col-content,
+#plane .enterprise-content {
+    font-size: 14px;
+    padding: 35px 25px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
 #plane .col-icon {
     text-align: center;
     padding: 10px 0;
@@ -180,17 +203,7 @@ main section h2 {
 }
 
 #plane .col-content {
-    font-size: 14px;
     min-height: 800px;
-    padding: 35px 25px;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-}
-
-#plane .col-content h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
 }
 
 #plane .col-content > span {
@@ -223,7 +236,6 @@ main section h2 {
 }
 
 #plane .col-content h4 {
-    font-size: 18px;
     margin-top: 50px;
 }
 
@@ -236,6 +248,22 @@ main section h2 {
     font-family: "Font Awesome 6 Free";
     font-weight: bold;
     content: "\f00c";
+}
+
+#plane .enterprise {
+    margin-top: 50px;
+}
+
+#plane .enterprise-text {
+    width: 80%;
+}
+
+#plane .enterprise-content p {
+    margin-top: 30px;
+}
+
+#plane .contact {
+    width: 20%;
 }
 
 /* ***** footer ***** */
@@ -266,10 +294,10 @@ main section h2 {
     background-color: yellow;
 } */
 
-.debug main section {
-    height: 1000px;
+/* .debug main section {
+    height: 1200px;
     border: 1px solid black;
-}
+} */
 
 
 /* .debug #plane .col {
@@ -277,8 +305,6 @@ main section h2 {
     background-color: green;
     border: 1px solid blue;
 } */
-
-
 
 .debug footer .container-big {
     height: 300px;
