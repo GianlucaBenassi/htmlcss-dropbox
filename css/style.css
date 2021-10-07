@@ -274,6 +274,10 @@ main section h2 {
     width: 50%;
 }
 
+#partner .image img {
+    width: 100%;
+    object-fit: cover;
+}
 
 /* ***** footer ***** */
 
