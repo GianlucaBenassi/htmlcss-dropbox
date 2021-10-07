@@ -181,6 +181,7 @@ main section h2 {
 
 #plane .col-content {
     font-size: 14px;
+    min-height: 800px;
     padding: 35px 25px;
     border-left: 1px solid lightgrey;
     border-right: 1px solid lightgrey;
