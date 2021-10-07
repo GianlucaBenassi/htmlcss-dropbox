@@ -8,10 +8,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1920px;
     margin: 0 auto;
 }
 
+body,
+header {
+    max-width: 1920px;
+}
 .container-big {
     width: 80%;
 }
@@ -65,9 +68,14 @@ a:hover {
 /* ***** header ***** */
 
 header {
+    background-color: #fff;
     height: 80px;
+    width: 100%;
     padding: 0 20px;
     line-height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
 }
 
 #logo {
@@ -121,6 +129,7 @@ nav ul li a {
 
 .debug .jumbo .container-big {
     background-color: blue;
+    height: 400px;
 }
 
 .debug main .container-small {
