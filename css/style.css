@@ -19,11 +19,31 @@
     margin: 0 auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
 
 /* ***** header ***** */
 
 header {
     height: 80px;
+    padding: 0 20px;
+}
+
+#logo {
+    width: 130px;
+}
+
+header nav {
+    width: calc(100% - 130px);
+    height: 100%;
 }
 
 /* ***** jumbotron ***** */
@@ -42,8 +62,11 @@ header {
     background-color: red;
 }
 
+.debug header nav {
+    background-color: pink;
+}
+
 .debug .jumbo .container-big {
-    height: 800px;
     background-color: blue;
 }
 
