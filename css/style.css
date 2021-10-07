@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container-big {
     width: 80%;
 }
@@ -41,6 +45,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* ***** header ***** */
 
 header {
@@ -67,6 +75,12 @@ header nav ul li {
     display: inline-block;
 }
 
+nav ul li a {
+    color: black;
+    font-size: 14px;
+    margin: 0 15px;
+}
+
 /* ***** jumbotron ***** */
 
 
@@ -83,14 +97,14 @@ header nav ul li {
     background-color: red;
 }
 
-.debug header nav {
+/* .debug header nav {
     background-color: pink;
-}
+} */
 
-.debug header .nav-left,
+/* .debug header .nav-left,
 .debug header .nav-right {
     border: 1px solid black;
-}
+} */
 
 .debug .jumbo .container-big {
     background-color: blue;
