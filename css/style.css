@@ -230,6 +230,13 @@ main section h2 {
     margin: 15px 0;
 }
 
+#plane .col-content .plane-point li::before {
+    color: #2579ff;
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: "\f00c";
+}
+
 /* ***** footer ***** */
 
 
