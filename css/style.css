@@ -39,6 +39,17 @@ body {
     float: right;
 }
 
+.btn {
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 15px;
+}
+
+.btn:hover {
+    text-decoration: none;
+    background-color: #0053da;
+}
+
 ul {
     list-style: none;
 }
