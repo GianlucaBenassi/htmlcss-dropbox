@@ -393,13 +393,6 @@ main section h4 {
 
 #teams .team-col .content {
     position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#teams .team-col.central {
-    background-color: green;
-    padding-top: calc(100% / 3);
 }
 
 #teams .team-box .box {
@@ -407,9 +400,37 @@ main section h4 {
     padding-top: calc(100% / 2);
 }
 
+#teams .team-col .box .content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 
+#teams .team-box .box img {
+    width: 100%;
+}
 
+#teams .team-col.central {
+    background-color: #F5F5F5;
+    padding-top: calc(100% / 3);
+}
+
+#teams .team-col.central .content {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+#designit {
+    background-color: #A2D39B;
+}
+
+#asu {
+    background-color: #61082B;
+}
 
 
 #teams .title-bottom {
@@ -480,7 +501,7 @@ main section h4 {
 } */
 
 .debug #teams .team-box .box {
-    background-color: blue;
+    /* background-color: blue; */
     border: 1px solid black;
 }
 
