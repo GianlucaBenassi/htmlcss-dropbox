@@ -569,8 +569,26 @@ footer {
     background-color: black;
 }
 
+footer .footer-top {
+    padding: 50px 0;
+}
+
 footer .footer-col {
     width: calc(100% / 5);
+}
+
+footer .footer-top h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer .footer-top li {
+    margin: 5px 0;
+}
+
+footer .footer-top a {
+    color: white;
+    font-size: 14px;
 }
 
 /* +++++ debug +++++  */
@@ -647,18 +665,18 @@ footer .footer-col {
     background-color: green;
 } */
 
-.debug footer .footer-top {
+/* .debug footer .footer-top {
     height: 200px;
     background-color: green;
-}
-
-.debug footer .footer-bottom {
-    height: 50px;
-    background-color: blue;
 }
 
 .debug footer .footer-col {
     height: 100px;
     background-color: pink;
     border: 1px solid black;
+} */
+
+.debug footer .footer-bottom {
+    height: 50px;
+    background-color: blue;
 }
