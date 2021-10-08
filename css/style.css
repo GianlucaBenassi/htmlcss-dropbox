@@ -569,6 +569,10 @@ footer {
     background-color: black;
 }
 
+footer .footer-col {
+    width: calc(100% / 5);
+}
+
 /* +++++ debug +++++  */
 
 /* .debug header {
@@ -651,4 +655,10 @@ footer {
 .debug footer .footer-bottom {
     height: 50px;
     background-color: blue;
+}
+
+.debug footer .footer-col {
+    height: 100px;
+    background-color: pink;
+    border: 1px solid black;
 }
