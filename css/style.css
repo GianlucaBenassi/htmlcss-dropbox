@@ -409,6 +409,7 @@ main section h4 {
 
 #teams .team-box .box img {
     width: 100%;
+    filter: invert(100%);
 }
 
 #teams .team-col.central {
@@ -423,7 +424,6 @@ main section h4 {
     right: 0;
 }
 
-
 #designit {
     background-color: #A2D39B;
 }
@@ -431,6 +431,34 @@ main section h4 {
 #asu {
     background-color: #61082B;
 }
+
+#uf {
+    background-color: #0093CE;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+#bicycle {
+    background-color: #D5001F;
+}
+
+#hearst {
+    background-color: #B4D0E7;
+}
+
+#lonely {
+    background-color: #0D2481;
+}
+
+#clearchannel {
+    background-color: #FFD830;
+}
+
+
+
+
 
 
 #teams .title-bottom {
@@ -500,10 +528,10 @@ main section h4 {
     border: 1px solid black;
 } */
 
-.debug #teams .team-box .box {
-    /* background-color: blue; */
+/* .debug #teams .team-box .box {
+    background-color: blue;
     border: 1px solid black;
-}
+} */
 
 .debug #teams .title-bottom .container-small{
     background-color: red;
