@@ -369,6 +369,10 @@ main section h4 {
 
 /* ----- teams section ----- */
 
+#teams h2 {
+    max-width: 650px;
+}
+
 #teams .title-top {
     margin-bottom: 40px;
 }
@@ -484,6 +488,24 @@ main section h4 {
 
 #teams .title-bottom {
     background-color: #B4D0E7;
+    padding: 100px 0;
+}
+
+#teams .title-bottom .title {
+    width: 70%;
+}
+
+#teams .title-bottom .title h2 {
+    color: #61082B;
+}
+
+#teams .title-bottom .button {
+    width: 30%;
+}
+
+#teams .title-bottom .btn {
+    display: block;
+    text-align: center;
 }
 
 /* ***** footer ***** */
@@ -554,10 +576,10 @@ main section h4 {
     border: 1px solid black;
 } */
 
-.debug #teams .title-bottom .container-small{
+/* .debug #teams .title-bottom .container-small{
     background-color: red;
     height: 400px;
-}
+} */
 
 .debug footer .container-big {
     height: 300px;
