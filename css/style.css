@@ -591,6 +591,25 @@ footer .footer-top a {
     font-size: 14px;
 }
 
+footer .footer-bottom {
+    position: relative;
+    padding: 50px 0;
+}
+
+footer .footer-bottom::before {
+    content: '';
+    display: block;
+    width: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+}
+
+footer .footer-bottom .fa-sort-up {
+    font-size: 12px;
+}
+
 /* +++++ debug +++++  */
 
 /* .debug header {
@@ -676,7 +695,7 @@ footer .footer-top a {
     border: 1px solid black;
 } */
 
-.debug footer .footer-bottom {
+/* .debug footer .footer-bottom {
     height: 50px;
     background-color: blue;
-}
+} */
