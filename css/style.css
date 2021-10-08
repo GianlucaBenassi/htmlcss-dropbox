@@ -87,11 +87,12 @@ header {
     height: 80px;
     width: 100%;
     padding: 0 20px;
-    line-height: 80px;
+    line-height: 78px;
     position: fixed;
     top: 0;
     z-index: 9999;
     margin: 0 auto;
+    border-bottom: 1px solid lightgrey;
 }
 
 #logo {
@@ -112,10 +113,27 @@ header nav ul li {
     display: inline-block;
 }
 
+header nav ul li:hover {
+    border-bottom: 1px solid black;
+}
+
 nav ul li a {
     color: black;
     font-size: 14px;
     margin: 0 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+nav ul .last a {
+    display: inline;
+}
+
+nav ul .last:hover {
+    border-bottom: none;
 }
 
 /* ***** jumbotron ***** */
