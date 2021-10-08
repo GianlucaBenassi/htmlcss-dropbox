@@ -385,6 +385,13 @@ main section h2 {
     border: 1px solid black;
 } */
 
+#business .col {
+    background-color: red;
+    height: 200px;
+    border: 1px solid black;
+}
+
+
 .debug footer .container-big {
     height: 300px;
     background-color: green;
