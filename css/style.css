@@ -508,9 +508,38 @@ main section h4 {
     text-align: center;
 }
 
+
+/* ----- ask section ----- */
+
+#ask {
+    padding-bottom: 100px;
+}
+
+#ask h2 {
+    margin-bottom: 50px;
+}
+
+#ask .question {
+    padding: 30px 0;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+#ask .question .arrow {
+    padding-right: 20px;
+}
+
+#ask .question .arrow::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: "\f078";
+}
+
 /* ***** footer ***** */
 
-
+footer {
+    background-color: black;
+}
 
 /* +++++ debug +++++  */
 
