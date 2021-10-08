@@ -412,18 +412,6 @@ main section h4 {
     filter: invert(100%);
 }
 
-#teams .team-col.central {
-    background-color: #F5F5F5;
-    padding-top: calc(100% / 3);
-}
-
-#teams .team-col.central .content {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 #designit {
     background-color: #A2D39B;
 }
@@ -457,7 +445,39 @@ main section h4 {
 }
 
 
+#teams .team-col.central {
+    background-color: #F5F5F5;
+    padding-top: calc(100% / 3);
+}
 
+#teams .team-col.central .content {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 60px 40px;
+}
+
+#teams .team-col.central img {
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 40px;
+}
+
+#teams .team-col.central p {
+    position: relative;
+    padding: 40px 0;
+}
+
+#teams .team-col.central p::before {
+    content: '';
+    display: block;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid lightgrey;
+}
 
 
 
