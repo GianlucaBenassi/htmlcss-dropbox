@@ -182,7 +182,15 @@ main section {
 }
 
 main section h2 {
-    font-size: 30px;
+    font-size: 45px;
+}
+
+main section h3 {
+    font-size: 25px;
+}
+
+main section h4 {
+    font-size: 18px;
 }
 
 /* --- plane section --- */
@@ -192,12 +200,7 @@ main section h2 {
 }
 
 #plane h3 {
-    font-size: 25px;
     margin-bottom: 20px;
-}
-
-#plane h4 {
-    font-size: 18px;
 }
 
 #plane .btn {
@@ -325,7 +328,7 @@ main section h2 {
     padding: 30px;
 }
 
-#partner .partner-text h2,
+#partner .partner-text h3,
 #partner .partner-text p {
     margin-bottom: 30px;
 }
@@ -336,6 +339,13 @@ main section h2 {
 
 #partner .partner-text a.btn {
     border: 1px solid black; 
+}
+
+
+/* ----- business section ----- */
+
+#business .col {
+    margin-top: 50px;
 }
 
 /* ***** footer ***** */
@@ -387,7 +397,7 @@ main section h2 {
 
 #business .col {
     background-color: red;
-    height: 200px;
+    height: 500px;
     border: 1px solid black;
 }
 
