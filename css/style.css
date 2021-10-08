@@ -565,6 +565,7 @@ main section h4 {
 /* ***** footer ***** */
 
 footer {
+    color: white;
     background-color: black;
 }
 
@@ -637,7 +638,17 @@ footer {
     height: 400px;
 } */
 
-.debug footer .container-big {
+/* .debug footer .container-big {
     height: 300px;
     background-color: green;
+} */
+
+.debug footer .footer-top {
+    height: 200px;
+    background-color: green;
+}
+
+.debug footer .footer-bottom {
+    height: 50px;
+    background-color: blue;
 }
