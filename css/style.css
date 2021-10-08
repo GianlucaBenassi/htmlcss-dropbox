@@ -382,6 +382,36 @@ main section h4 {
 }
 
 
+#teams .team-box .team-col {
+    width: calc(100% / 3);
+}
+
+#teams .team-col.central,
+#teams .team-box .box {
+    position: relative;
+}
+
+#teams .team-col .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#teams .team-col.central {
+    background-color: green;
+    padding-top: calc(100% / 3);
+}
+
+#teams .team-box .box {
+    width: calc(100% / 2);
+    padding-top: calc(100% / 2);
+}
+
+
+
+
+
+
 #teams .title-bottom {
     background-color: #B4D0E7;
 }
@@ -439,9 +469,19 @@ main section h4 {
     border: 1px solid black;
 } */
 
-.debug #teams .team-box {
+/* .debug #teams .team-box {
     background-color: brown;
-    height: 400px;
+    height: 600px;
+} */
+
+/* .debug #teams .team-col {
+    height: 600px;
+    border: 1px solid black;
+} */
+
+.debug #teams .team-box .box {
+    background-color: blue;
+    border: 1px solid black;
 }
 
 .debug #teams .title-bottom .container-small{
