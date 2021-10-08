@@ -366,6 +366,26 @@ main section h4 {
     margin-bottom: 20px;
 }
 
+
+/* ----- teams section ----- */
+
+#teams .title-top {
+    margin-bottom: 40px;
+}
+
+#teams .title-top h2 {
+    margin-bottom: 20px;
+}
+
+#teams .title-top a {
+    color: #2579ff;
+}
+
+
+#teams .title-bottom {
+    background-color: #B4D0E7;
+}
+
 /* ***** footer ***** */
 
 
@@ -419,6 +439,15 @@ main section h4 {
     border: 1px solid black;
 } */
 
+.debug #teams .team-box {
+    background-color: brown;
+    height: 400px;
+}
+
+.debug #teams .title-bottom .container-small{
+    background-color: red;
+    height: 400px;
+}
 
 .debug footer .container-big {
     height: 300px;
