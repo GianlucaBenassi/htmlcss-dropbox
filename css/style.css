@@ -285,6 +285,14 @@ main section h4 {
     padding: 10px 0;
 }
 
+#plane .col-content .plane-type li i {
+    width: 20px;
+}
+
+#plane .col-content .plane-type li span {
+    width: calc(100% - 20px);
+}
+
 #plane .col-content .btn {
     display: block;
     text-align: center;
