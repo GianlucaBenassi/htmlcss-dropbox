@@ -137,6 +137,35 @@ nav ul .last:hover {
     border-bottom: none;
 }
 
+/* dropdown list */
+
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    min-width: 200px;
+    z-index: 9999;
+}
+
+nav .dropdown-content a {
+    display: block;
+    line-height: 40px;
+  }
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav .dropdown-content a:hover {
+    text-decoration: underline;
+}
+
 /* ***** jumbotron ***** */
 
 .jumbo {
