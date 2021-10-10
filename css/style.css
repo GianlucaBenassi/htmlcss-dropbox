@@ -233,6 +233,41 @@ main section h4 {
     margin-bottom: 20px;
 }
 
+
+/* radio personalization  */
+
+#plane .invoice input[type='radio'], 
+#plane .invoice input[type='radio']:checked:before {
+    -webkit-appearance:none;
+    border:1px solid lightgrey;
+    border-radius:50%;
+}
+
+#plane .invoice input[type='radio'] {
+    width:20px;
+    height:20px;
+    position: relative;
+    vertical-align: middle;
+}
+  
+#plane .invoice input[type='radio']:before {
+    content:'';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#plane .invoice input[type='radio']:checked:before {
+    background: white;
+    width:18px;
+    height:18px;
+    box-shadow: 0 0 0 5px #0463FF inset; 
+}
+
+/* / radio personalization */
+
+
 #plane .btn {
     display: block;
     text-align: center;
