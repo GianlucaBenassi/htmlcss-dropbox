@@ -682,7 +682,9 @@ footer .footer-top a {
     font-size: 14px;
 }
 
+
 footer .footer-bottom {
+    display: inline-block;
     position: relative;
     padding: 50px 0;
 }
@@ -711,6 +713,7 @@ footer .language > span::after {
 
 footer .lang-list {
     display: none;
+    min-width: 150px;
     position: absolute;
     bottom: 25px;
     background-color: white;
