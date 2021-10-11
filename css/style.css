@@ -542,6 +542,7 @@ main section h4 {
 
 #teams .team-col.central .content {
     padding: 60px 40px;
+    overflow-y: scroll;
 }
 
 #teams .team-col.central img {
