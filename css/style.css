@@ -634,8 +634,6 @@ main section h4 {
 }
 
 #ask .question:hover .arrow::before {
-    font-family: "Font Awesome 6 Free";
-    font-weight: bold;
     content: "\f077";
 }
 
@@ -687,8 +685,51 @@ footer .footer-bottom::before {
     border-bottom: 1px solid white;
 }
 
-footer .footer-bottom .fa-sort-up {
+footer .language {
+    position: relative;
+    height: 25px;
+}
+
+footer .language > span::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: bold;
+    content: "\f0d8";
     font-size: 12px;
+}
+
+footer .lang-list {
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 25px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+footer .lang-list li {
+    color: black;
+    display: block;
+    line-height: 40px;
+}
+
+footer .lang-list img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+footer .language:hover > span::after {
+    content: "\f0d7";
+}
+
+footer .language:hover .lang-list {
+    display: block;
+    cursor: pointer;
+}
+
+footer .language .lang-list li:hover {
+    background-color: #eee;
 }
 
 /* +++++ debug +++++  */
