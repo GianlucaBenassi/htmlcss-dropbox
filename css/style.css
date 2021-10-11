@@ -699,7 +699,6 @@ footer .language > span::after {
 
 footer .lang-list {
     display: none;
-    padding: 5px 10px;
     position: absolute;
     bottom: 25px;
     background-color: white;
@@ -712,6 +711,7 @@ footer .lang-list li {
     color: black;
     display: block;
     line-height: 40px;
+    padding: 5px 15px;
 }
 
 footer .lang-list img {
@@ -730,6 +730,7 @@ footer .language:hover .lang-list {
 
 footer .language .lang-list li:hover {
     background-color: #eee;
+    border-radius: 10px;
 }
 
 /* +++++ debug +++++  */
